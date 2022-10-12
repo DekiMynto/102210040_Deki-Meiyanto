@@ -1,0 +1,19 @@
+
+
+.container-div{
+    background-color: coral;
+    height: 50%;
+    width: 32%;
+}
+
+.container-footer{
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 41%;
+}
+
+.footer-h1{
+    font-size: 25px;
+}
