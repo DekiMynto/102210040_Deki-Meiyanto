@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    max-width: 100vw;
+    line-height: 1.4;
+    padding: 20px 40px;
+  }
+  
+  .header {
+    background-color: rgb(0, 141, 33);
+    color: aliceblue;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+  }
+
+  /*NAVBAR  */    
+  .container-navbar{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 10vh;
+  }
+
+  .container-div1 {
+    color: black
+  }
+
+  .ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .li-navbar {
+    list-style-type: none;
+    padding: 15px;
+    margin: 5px;
+    color: white;
+    font-size: 17px;
+    
+  }
+
+  .li-navbar:hover {
+    background-color: rgb(152, 0, 0);
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 10px;
+  }
+
+  .a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+  }
+  /* NAVBAR SELESAI */
+
+/* TABEL */
+.thead1 {
+  color: rgb(0, 0, 0);
+  background-color: yellow;
+}
+
+.tabel-bar {
+  background-color: #D6EEEE;
+  font-family: sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  width: 30%;
+}
+/* TABEL SELSAI */
+
+  .container {
+    max-width: 1200px;
+  }
+  
+  .heading-1 {
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  
+  .heading-2 {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+  
+  .heading-3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: crimson;
+    margin-bottom: 10px;
+  }
+  
+  .sub-heading {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .sub-heading p {
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-right: 10px;
+  }
+  
+  .sub-heading span {
+    color: #555;
+    font-weight: 300;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+  }
+  
+  .sub-heading .importent {
+    color: crimson;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  
+  /* HOME */
+  .home {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+  }
+  
+  .home-img {
+    width: 100%;
+  }
+  
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .list img {
+    width: 100%;
+    height: 80px;
+  }
+  
+  /* ARTICLE */
+  article > p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  
+    columns: 3 25ch;
+    column-gap: 40px;
+    hyphens: auto;
+  }
+  
+  article p:first-child::first-line {
+    font-weight: 700;
+    font-size: 25px;
+  }
+  
+  /* blockquote */
+  blockquote {
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  blockquote::before {
+    content: open-quote;
+    position: absolute;
+    top: -48px;
+    left: -4px;
+    opacity: .3;
+    color: #666;
+    font-size: 150px;
+  }
+  
+
+  /* FOOTER */
+.container-footer {
+  height: 10vh;
+  background-color:  rgb(0, 141, 33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-footer {
+  font-size: 30px;
+  color: white;
+}
+/* FOOOTER SELESAI */
